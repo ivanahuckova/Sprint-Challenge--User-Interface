@@ -382,6 +382,19 @@ textarea::placeholder {
     font-size: 0.8rem; 
 }
 
+button {
+    padding: 3% 7%;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.form-row:last-child {
+    justify-content: flex-end;
+}
+
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 800px) {
