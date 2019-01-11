@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+
+nav.nav-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 3%;
+    align-items: flex-end;
+}
+
+.nav-container .nav-logo {
+    flex: 0.2;
+}
+
+.nav-container .nav-navigation {
+    flex: 0.7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.img-full-width {
+    width: 100%;
+    margin: 5% 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
