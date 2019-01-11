@@ -45,12 +45,12 @@ Semantic HTML is in current web development very important for SEO and also for 
 ```display: block;```
 - Element can have width, height and vertical margin.
 - It starts on a new line, and takes up the whole width.
-Examples of block emelemts: <div>, <p>
+Examples of block emelemts: div, p
 
-```display: inline;``
+```display: inline;```
 - Element can't have width, height and vertical margin.
 - Does not start on a new line and only takes up as much width as necessary.
-Examples of iniline emelents: <a>, <span>
+Examples of iniline emelents: a, span
 
 3. What are the 4 areas of the box model?
 
