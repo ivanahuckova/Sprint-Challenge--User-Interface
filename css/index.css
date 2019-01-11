@@ -427,11 +427,6 @@ textarea::placeholder {
         color: black;
     }
 
-
-
-
-
-
     footer {
         width: 100%;
         background: black;
@@ -524,4 +519,29 @@ textarea::placeholder {
         border-radius: 10px;
     }
 
+    /*CONTACT MEDIA QUERIES*/
+
+    .form-container {
+        margin: 4% auto;
+        width: 95%;
+        padding: 10px;
+    }
+    
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        margin: 5%;
+    }
+    
+    label {
+        width: 20%;
+    }
+    
+    input {
+        width: 75%;
+    }
+ 
+    textarea {
+        width: 75%;
+    }
 }
