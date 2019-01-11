@@ -165,6 +165,20 @@ footer nav a {
     justify-content: center;
 }
 
+.middle-content .boxes .box:hover {
+    animation-name: filter-width-height;
+    animation-duration: 3000ms;
+
+}
+
+@keyframes filter-width-height {
+    100% {
+       filter: invert(100%);
+       transform: scale(1.5)
+    }
+}
+
+
 .middle-content .boxes .box:nth-child(1) {
     background-color: teal;
 }
