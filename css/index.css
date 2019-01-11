@@ -289,3 +289,30 @@ footer nav a {
 .margin-bottom-5 {
     margin-bottom: 5%;
 }
+
+/*PRODUCTS PAGE SPECIFIC CSS*/
+
+.products-content-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products-content-container .products-box {
+    width: 45%;
+    margin: 2.5%;
+}
+
+.products-box img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.products-box h2 {
+    font-weight: bold;
+}
+
+
+.margin-5 {
+    margin: 5% 0;
+}
