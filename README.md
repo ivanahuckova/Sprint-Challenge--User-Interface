@@ -34,13 +34,47 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML reffers to current recommended standard of HTML5. Semantic tags give meaning to html tags. 
+Theses are an examples of semantic tags - h1, p, nav, header, footer. As you can see, you (and computer as well) can imagine what is the content behind the tags.
+Following tags are not semantic - div, span. With these tags, you (and neither computer) can understand what is the content and meaning behind these. 
+Semantic HTML is in current web development very important for SEO and also for screen readers. There are around 100 semantic tags. You can check them out here: https://developer.mozilla.org/en-US/docs/Glossary/Semantics/. 
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+```display: block;```
+- Element can have width, height and vertical margin.
+- It starts on a new line, and takes up the whole width.
+Examples of block emelemts: div, p
+
+```display: inline;```
+- Element can't have width, height and vertical margin.
+- Does not start on a new line and only takes up as much width as necessary.
+Examples of iniline emelents: a, span
 
 3. What are the 4 areas of the box model?
 
+- Content
+- Padding
+- Border
+- Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+```align-items: center``` - flex items are laid out along the cross axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable for developers for following reasons:
+
+- It uses distributed model, which means that your work is your own. You can let others see only what is necessary for them to see. And Not everything has to be public (you can add private/confidential files to .gitignore). 
+- Workflow is very flexible. You can choose your own workflow. You can use the process that best fits you.
+- Branching - everyone can work simultaneously on 1 project, but on different branches/different features. You can also test your ideas/experiment on different branch. You can branch whenever you want.
+- It is fast as as most everything is local. 
+- Possibility of working offline.
+- Collaboration friendly.
+- It is free.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
