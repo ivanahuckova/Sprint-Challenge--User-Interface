@@ -69,11 +69,11 @@ p {
 hr {
     border-top: 1px dashed black;
 }
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
 
+.img-full-width {
+    width: 100%;
+    margin: 5% 0 2.5% 0;
+}
 
 nav.nav-container {
     display: flex;
@@ -98,9 +98,30 @@ nav.nav-container {
     color: black;
 }
 
-.img-full-width {
+footer {
     width: 100%;
-    margin: 5% 0 2.5% 0;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/*INDEX/MAIN PAGE SPECIFIC CSS*/
+
+.container {
+    width: 800px;
+    margin: 0 auto;
 }
 
 .top-content {
@@ -198,7 +219,7 @@ nav.nav-container {
     padding-right: 0;
 }
 
-/*ABOUT PAGE*/
+/*ABOUT PAGE SPECIFIC CSS*/
 
 .about-content-container {
     display: flex;
@@ -240,23 +261,4 @@ nav.nav-container {
 
 .margin-bottom-5 {
     margin-bottom: 5%;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
 }
