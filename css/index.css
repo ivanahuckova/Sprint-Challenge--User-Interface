@@ -70,6 +70,10 @@ hr {
     border-top: 1px dashed black;
 }
 
+.center {
+    text-align: center;
+}
+
 .img-full-width {
     width: 100%;
     margin: 5% 0 2.5% 0;
@@ -312,7 +316,59 @@ footer nav a {
     font-weight: bold;
 }
 
-
 .margin-5 {
     margin: 5% 0;
+}
+
+/*CONTACT PAGE SPECIFIC CSS*/
+
+.form-heading {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.form-container {
+    margin: 4% auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+label {
+    width: 15%;
+}
+
+input {
+    width: 70%;
+    line-height: 2;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+    padding-left: 2%;
+    box-shadow: none;
+}
+
+input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.25;
+    padding-left: 5px;
+    font-size: 0.8rem; 
+}
+
+textarea {
+    width: 70%;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+}
+
+textarea::placeholder {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.25;
+    padding-left: 5px;
+    font-size: 0.8rem; 
 }
