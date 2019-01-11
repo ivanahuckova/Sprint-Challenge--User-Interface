@@ -166,18 +166,18 @@ footer nav a {
 }
 
 .middle-content .boxes .box:hover {
-    animation-name: filter-width-height;
-    animation-duration: 3000ms;
+    animation-name: filter-scale;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
 
 }
 
-@keyframes filter-width-height {
+@keyframes filter-scale {
     100% {
        filter: invert(100%);
-       transform: scale(1.5)
+       transform: scale(1.2)
     }
 }
-
 
 .middle-content .boxes .box:nth-child(1) {
     background-color: teal;
@@ -271,6 +271,19 @@ footer nav a {
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
+}
+
+.about-box-text a:hover {
+  animation: color-scale;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes color-scale {
+    100% {
+       background-color: black;
+       color: white;
+    }
 }
 
 .margin-bottom-5 {
